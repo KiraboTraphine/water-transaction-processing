@@ -1,0 +1,23 @@
+# Water Transaction Processing System
+
+This project is a Python-based transaction processing system for a regional water distribution company.
+
+## Features
+
+- Registers water distribution transactions
+- Validates transaction IDs, customer references and supply points
+- Rejects duplicate transaction IDs
+- Rejects negative and zero quantities
+- Calculates payment automatically using the approved unit price
+- Searches transactions by customer
+- Calculates total quantity supplied
+- Calculates total revenue collected
+- Calculates cumulative quantity and revenue for each customer
+
+## File
+
+`water_transaction_processing.py`
+
+## Unit Price
+
+UGX 10 per litre
